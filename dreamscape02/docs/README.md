@@ -1,11 +1,11 @@
-# Store theme
-<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
-<!-- ALL-CONTRIBUTORS-BADGE:END -->
-Our boilerplate theme to create stores in the VTEX IO platform.
+# Layout criado sobre o boilerplate Store theme
+## Layout base
+- [Layout](https://zyro.com/br/preview/tangierlite?returnPath=%2Fbr%2Ftemplates%2Fpopular&defaultTemplateId=tangier)
 
-## Preview
-![store-theme-default](https://user-images.githubusercontent.com/1354492/63937047-e8d81c80-ca37-11e9-86fc-61e88847bbfb.png)
+## App countdown
+
+Utilizei nesse layout o app countdown construído na aula de blocos customizáveis. Para que ele apareça na aplicação é necessário ter o bloco em sua máquina local e rodar o comando "vtex link" no diretório dele, linkando tanto o store front quanto o countdown no mesmo workspace. 
+
 
 ## Tutorial
 To understand how things work check our tutorial [Build a store using VTEX IO](https://vtex.io/docs/getting-started/build-stores-with-store-framework/1/)
