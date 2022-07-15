@@ -1,0 +1,26 @@
+{"stack-layout#cta": {
+     "children": [
+       "image#cta",
+       "link#cta"
+
+     ]
+     },"image#cta": {
+       "props": {
+         "blockClass": "cover",
+         "width": "100%",
+         "height": 800,
+         "src": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=1920,fit=crop/tangierucwcm/piotr-chrobot-x2byGrIsQYg-unsplash.jpg"
+       }
+     },
+     "link#cta": {
+       "props": {
+         "displayMode": "button",
+         "buttonProps": {
+           "variant": "primary",
+           "size": "large"
+         },
+         "href": "/washer",
+         "label": "SHOP"
+       }
+     }
+}
