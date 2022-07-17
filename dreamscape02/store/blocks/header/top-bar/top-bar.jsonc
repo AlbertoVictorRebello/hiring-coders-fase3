@@ -3,8 +3,13 @@
     "blockClass": "header-header",
     "position": "top"
   },
-  "children": ["vtex.menu@2.x:menu#arthur"]
-},"vtex.menu@2.x:menu#arthur": {
+  "children": [
+    "login", 
+    "minicart.v2",
+    "vtex.menu@2.x:menu#grupo2"
+  ]
+},
+"vtex.menu@2.x:menu#grupo2": {  
   "props": {
     "blockClass": "header-header",
     "horizontalAlign": "center",
@@ -22,7 +27,7 @@
           "href": "#",
           "noFollow": false,
           "tagTitle": "logo",
-          "text": "Tangier"
+          "text": "Posterium"
         }
       },
       {

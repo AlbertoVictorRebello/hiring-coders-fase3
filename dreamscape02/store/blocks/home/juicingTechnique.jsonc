@@ -6,8 +6,9 @@
       "textPosition": "right",
       "imageUrl": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=600,h=624,fit=crop/tangierucwcm/dose-juice--SfJ_ycBApU-unsplash.jpg",
       "headline": "Our juicing technique",
-      "subhead": "How do we pack so much flavor into each bottle? Our patented juicing technology squeezed every last bit of quality juice out of each fruit, meaning you get to enjoy every bit of the original goodness.",
-      "textAlignment": "center"
+      "subhead": "How do we pack so much flavor into each bottle?<br>Our patented juicing technology squeezed every last bit of<br>quality juice out of each fruit, meaning you get to<br>enjoy every bit of the original goodness.",
+      "textAlignment": "center",
+      "callToActionMode": "None"
     }
 },
  "info-card#reallyOrganic": {
@@ -16,8 +17,9 @@
     "textPosition": "left",
     "imageUrl": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=600,h=624,fit=crop/tangierucwcm/dose-juice-sTPy-oeA3h0-unsplash-min.jpg",
     "headline": "Is it really organic?",
-    "subhead": "Yes. The farms from which we source all our fruit are 100% certified organic. This means there are no harmful chemicals, pesticides, fungicides, or herbicides used on the food you consume. This is fruit at its most natural.",
-    "textAlignment": "center"
+    "subhead": "Yes. The farms from which we source all our fruit<br>are 100% certified organic. This means there are no<br>harmful chemicals, pesticides, fungicides, or herbicides used on the<br>food you consume. This is fruit at its most natural.",
+    "textAlignment": "center",
+    "callToActionMode": "None"
   }
 }
 }

@@ -69,15 +69,19 @@
   .newsletter .container {
     padding: 140px;
   }
+
   .label {
-     font-size: 40px;
+    font-size: 40px;
   }
+
   .infoCardContainer--info-card-home .infoCardTextContainer {
     width: 30%;
   }
+
   .infoCardContainer--info-card-home .infoCardImageContainer {
     width: 70%;
   }
+
   .imageElement--storePrint {
     margin-bottom: 0px;
     max-height: 600px;

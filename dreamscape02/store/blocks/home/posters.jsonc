@@ -1,0 +1,100 @@
+// {
+//   "slider-layout#poster": {
+//     "children": [
+//         "stack-layout#cta1",
+//         "stack-layout#cta2"
+
+//     ],
+//     "props": {
+//       "autoplay": {
+//         "timeout": 7000,
+//         "stopOnHover": true
+//       }
+//     }
+//   }, 
+  
+  
+//   "stack-layout#cta1": {
+//      "children": [
+//        "image#cta1"/*,
+//        "link#cta"*/
+//      ]
+//   },
+//   "image#cta1": {
+//     "props": {
+//       "blockClass": "cover",
+//       "width": "100%",
+//     //  "height": 800,
+//       "src": "assets/imgs/posters1-resized.jpg"
+//     }
+//   }/*,
+//      "link#cta": {
+//        "props": {
+//          "displayMode": "button",
+//          "buttonProps": {
+//            "variant": "primary",
+//            "size": "large"
+//          },
+//          "href": "/washer",
+//          "label": "SHOP"
+//        }
+//      }*/,
+//   "stack-layout#cta2": {
+//     "children": [
+//       "image#cta2"/*,
+//       "link#cta"*/
+//     ]
+//   },
+//   "image#cta2": {
+//     "props": {
+//     "blockClass": "cover",
+//     "width": "100%",
+//     // "height": 800,
+//     "src": "assets/imgs/inauguration1-resized.jpg"
+//     }
+//   }/*,
+//       "link#cta": {
+//         "props": {
+//           "displayMode": "button",
+//           "buttonProps": {
+//             "variant": "primary",
+//             "size": "large"
+//           },
+//           "href": "/washer",
+//           "label": "SHOP"
+//         }
+//       }*/
+// }
+
+{
+  "list-context.image-list#posters": {
+    "children": ["slider-layout#posters"],
+    "props": {
+      // "height": 650,
+      "images": [
+        {
+          "image": "assets/imgs/inauguration1-resized.jpg",
+          "description": "something something"
+        },
+        {
+          "image": "assets/imgs/posters1-resized.jpg",
+          "description": "something something"
+        }
+      ]
+    }
+  },
+  "slider-layout#posters": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "autoplay": {
+        "timeout": 5000,
+        "stopOnHover": true
+      },
+      "infinite": true
+    }
+  }
+}

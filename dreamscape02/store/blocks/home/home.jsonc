@@ -1,19 +1,16 @@
 {
   "store.home": {
     "blocks": [
-
+      // "slider-layout#poster",
+      "list-context.image-list#posters",
       "info-card#juicingTechnique",
       "info-card#reallyOrganic",
-
+      "list-context.product-list",
+      "slider-layout#home",
+      "flex-layout.row#deals",
       /* You can make references to blocks defined in other files.
        * For example, `flex-layout.row#deals` is defined in the `deals.json` file. */
-
       "__fold__"
-
-
-
-
-
     ]
   },
 
