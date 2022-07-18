@@ -3,8 +3,8 @@
     "blocks": [
       // "slider-layout#poster",
       "list-context.image-list#posters",
-      "info-card#juicingTechnique",
-      "info-card#reallyOrganic",
+      "info-card#posters",
+      // "info-card#reallyOrganic",
       "list-context.product-list",
       "slider-layout#home",
       "flex-layout.row#deals",

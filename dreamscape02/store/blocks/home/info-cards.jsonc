@@ -1,16 +1,16 @@
 {
   
-  "info-card#juicingTechnique": {
+  "info-card#posters": {
     "props": {
       "isFullModeStyle": false,
-      "textPosition": "right",
-      "imageUrl": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=600,h=624,fit=crop/tangierucwcm/dose-juice--SfJ_ycBApU-unsplash.jpg",
-      "headline": "Our juicing technique",
-      "subhead": "How do we pack so much flavor into each bottle?<br>Our patented juicing technology squeezed every last bit of<br>quality juice out of each fruit, meaning you get to<br>enjoy every bit of the original goodness.",
+      "textPosition": "center",
+      "imageUrl": "assets/imgs/info-card-poster-resized.jpg",
+      "headline": "We have the poster for you!",
+      "subhead": "Come on and browse our amazing collection<br>with more than hundreds of high-quality posters<br>of your favorite movies, series, games, and much more!",
       "textAlignment": "center",
       "callToActionMode": "None"
     }
-},
+}/*,
  "info-card#reallyOrganic": {
   "props": {
     "isFullModeStyle": false,
@@ -21,5 +21,5 @@
     "textAlignment": "center",
     "callToActionMode": "None"
   }
-}
+}*/
 }

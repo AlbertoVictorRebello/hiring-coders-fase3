@@ -8,18 +8,40 @@
   "header-layout.desktop": {
     "children": [
       // "countdown",
-      "sticky-layout#top-bar",
       "flex-layout.row#1-desktop",
+      "sticky-layout#top-bar",
       "flex-layout.row#3-desktop"
     ]
   },
 
   "flex-layout.row#1-desktop": {
-    "children": ["telemarketing", "countdown"],
+    "children": [
+      "image#logoG2",
+      "image#logoPosterium",
+      // "telemarketing",
+       "countdown"
+      ],
     "props": {
       "fullWidth": true
     }
   },
+
+  "image#logoG2": {
+    "props": {
+      "src": "assets/imgs/grupo02-logo.jpg",
+      "maxHeight": 80,
+      "horizontalAlign": "left"
+    }
+  },
+
+  
+  "image#logoPosterium": {
+    "props": {
+      "src": "assets/imgs/posterium-logo.jpg",
+      "maxHeight": 100
+    }
+  },
+
 
   "flex-layout.row#3-desktop": {
     "props": {
