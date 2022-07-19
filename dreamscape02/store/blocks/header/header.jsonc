@@ -9,8 +9,8 @@
     "children": [
       // "countdown",
       "flex-layout.row#1-desktop",
-      "sticky-layout#top-bar",
-      "flex-layout.row#3-desktop"
+      "sticky-layout#top-bar-desktop"
+      // "flex-layout.row#3-desktop"
     ]
   },
 
@@ -22,13 +22,14 @@
        "countdown"
       ],
     "props": {
-      "fullWidth": true
+      "fullWidth": true,
+      "blockClass": "headerLogoDesktop"
     }
   },
 
   "image#logoG2": {
     "props": {
-      "src": "assets/imgs/grupo02-logo.jpg",
+      "src": "assets/imgs/grupo02-logo-no-bg.png",
       "maxHeight": 80,
       "horizontalAlign": "left"
     }
@@ -37,26 +38,24 @@
   
   "image#logoPosterium": {
     "props": {
-      "src": "assets/imgs/posterium-logo.jpg",
+      "src": "assets/imgs/posterium-logo-no-bg.png",
       "maxHeight": 100
     }
   },
 
 
-  "flex-layout.row#3-desktop": {
-    "props": {
-      "blockClass": "menu-link",
-      "horizontalAlign": "center",
-      "preventHorizontalStretch": true,
-      "preventVerticalStretch": true,
-      "fullWidth": true
-    },
-    "children": [
-
-      "flex-layout.col#spacer"
-
-    ]
-  },
+  // "flex-layout.row#3-desktop": {
+  //   "props": {
+  //     "blockClass": "menu-link",
+  //     "horizontalAlign": "center",
+  //     "preventHorizontalStretch": true,
+  //     "preventVerticalStretch": true,
+  //     "fullWidth": true
+  //   },
+  //   "children": [
+  //     "flex-layout.col#spacer"
+  //   ]
+  // },
   "flex-layout.col#spacer": {
     "props": {
       "width": "grow"
@@ -71,13 +70,14 @@
   "flex-layout.row#1-mobile": {
     "children": [
       "drawer",
-      "logo#mobile",
+      "logo#g2-mobile",
+      // "logo#posterium-mobile",
       "flex-layout.col#spacer",
       "login",
       "minicart.v2"
     ],
     "props": {
-      "blockClass": "main-header-mobile",
+      "blockClass": "headerLogoMobile",
       "preventHorizontalStretch": true,
       "preserveLayoutOnMobile": true,
       "fullWidth": true
@@ -89,22 +89,30 @@
 
   "menu#drawer": {
     "children": [
-      "menu-item#category-apparel",
-      "menu-item#category-home",
-      "menu-item#more"
+      "logo#posterium-mobile",
+      "sticky-layout#top-bar-mobile"
     ],
     "props": {
       "orientation": "vertical"
     }
   },
 
-  "logo#mobile": {
+  "logo#g2-mobile": {
     "props": {
       "title": "Logo",
       "href": "/",
-      "url": "https://storecomponents.vteximg.com.br/arquivos/store-theme-logo-mobile.png",
+      "url": "assets/imgs/grupo02-logo-no-bg.png",
       "width": "77.5",
       "height": "27.5"
+    }
+  },
+  "logo#posterium-mobile": {
+    "props": {
+      "title": "Logo",
+      "href": "/",
+      "url": "assets/imgs/posterium-logo-no-bg.png",
+      "width": "250",
+      "height": "112.5"
     }
   }
 }

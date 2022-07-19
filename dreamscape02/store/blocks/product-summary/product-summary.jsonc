@@ -25,7 +25,7 @@
       "modal-trigger#quickview" // Check quickview.jsonc
     ]
   },
-
+// Changes the image shown on the shelf
   "product-summary-image#shelf": {
     "props": {
       "showBadge": false,
@@ -57,6 +57,7 @@
       "blockClass": "summary"
     }
   },
+  // Changes the distance of the discont info
   "flex-layout.row#selling-price-savings": {
     "props": {
       "colGap": 2,

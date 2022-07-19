@@ -10,16 +10,5 @@
       "textAlignment": "center",
       "callToActionMode": "None"
     }
-}/*,
- "info-card#reallyOrganic": {
-  "props": {
-    "isFullModeStyle": false,
-    "textPosition": "left",
-    "imageUrl": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=600,h=624,fit=crop/tangierucwcm/dose-juice-sTPy-oeA3h0-unsplash-min.jpg",
-    "headline": "Is it really organic?",
-    "subhead": "Yes. The farms from which we source all our fruit<br>are 100% certified organic. This means there are no<br>harmful chemicals, pesticides, fungicides, or herbicides used on the<br>food you consume. This is fruit at its most natural.",
-    "textAlignment": "center",
-    "callToActionMode": "None"
   }
-}*/
 }

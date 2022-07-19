@@ -1,6 +1,13 @@
 .sliderLayoutContainer {
   justify-content: center;
+  margin: 4rem 0 4rem 0;
 }
+
+.sliderLayoutContainer--mainPosters {
+  justify-content: center;
+  margin-top: 0;
+}
+
 
 .sliderLayoutContainer--carousel {
   background-color: #F0F0F0;

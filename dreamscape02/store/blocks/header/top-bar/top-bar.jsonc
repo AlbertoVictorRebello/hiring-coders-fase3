@@ -1,98 +1,123 @@
-{"sticky-layout#top-bar":{
-  "props":{
-    "blockClass": "header-header",
-    "position": "top"
-  },
-  "children": [
-    "login", 
-    "minicart.v2",
-    "vtex.menu@2.x:menu#grupo2"
-  ]
-},
-"vtex.menu@2.x:menu#grupo2": {  
-  "props": {
-    "blockClass": "header-header",
-    "horizontalAlign": "center",
-    "verticalAlign": "center",
-    "preventHorizontalStretch": true,
-    "preventVerticalStretch": true,
-    "fullWidth": true,
-    "items": [
-      {
-        "id": "menu-item-logo",
-        "type": "custom",
-        "highlight": false,
-        "itemProps": {
-          "type": "internal",
-          "href": "#",
-          "noFollow": false,
-          "tagTitle": "logo",
-          "text": "Posterium"
-        }
-      },
-      {
-        "id": "menu-item-home",
-        "type": "custom",
-        "highlight": false,
-        "itemProps": {
-          "type": "internal",
-          "href": "#",
-          "noFollow": false,
-          "tagTitle": "Home",
-          "text": "HOME"
-        }
-      },
-      {
-        "id": "menu-item-shop",
-        "type": "custom",
-        "highlight": false,
-        "itemProps": {
-          "type": "internal",
-          "href": "#",
-          "noFollow": false,
-          "tagTitle": "Shop",
-          "text": "SHOP"
-        }
-      },
-      {
-        "id": "menu-item-about-us",
-        "type": "custom",
-        "highlight": false,
-        "itemProps": {
-          "type": "internal",
-          "href": "/about-us",
-          "noFollow": false,
-          "tagTitle": "about-us",
-          "text": "ABOUT"
-        }
-      },
-      {
-        "id": "menu-item-contact",
-        "type": "custom",
-        "highlight": false,
-        "itemProps": {
-          "type": "internal",
-          "href": "/contact",
-          "noFollow": false,
-          "tagTitle": "contact",
-          "text": "CONTACT"
-        }
-      },
-      {
-        "id": "menu-item-shopping-bag",
-        "type": "custom",
-        "highlight": false,
-        "itemProps": {
-          "type": "internal",
-          "href": "/shopping-bag",
-          "noFollow": false,
-          "tagTitle": "shopping-bag",
-          "text": "SHOPPING BAG (0)"
-        }
-      }
+// Sticky menu for desktop
+{
+  "sticky-layout#top-bar-desktop":{
+    "props":{
+      "blockClass": "header-header",
+      "position": "top"
+    },
+    "children": [
+      "login", 
+      "minicart.v2",
+      "vtex.menu@2.x:menu#grupo2-desktop"
     ]
+  },
+  "vtex.menu@2.x:menu#grupo2-desktop": {  
+    "props": {
+      "blockClass": "header-header",
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "fullWidth": true,
+      "items": [
+        {
+          "id": "menu-item-home",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Home",
+            "text": "HOME"
+          }
+        },
+        // {
+        //   "id": "menu-item-shop",
+        //   "type": "custom",
+        //   "highlight": false,
+        //   "itemProps": {
+        //     "type": "internal",
+        //     "href": "#",
+        //     "noFollow": false,
+        //     "tagTitle": "Shop",
+        //     "text": "SHOP"
+        //   }
+        // },
+        {
+          "id": "menu-item-about-us",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/about-us",
+            "noFollow": false,
+            "tagTitle": "about-us",
+            "text": "ABOUT"
+          }
+        }/*,
+        {
+          "id": "menu-item-contact",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/contact",
+            "noFollow": false,
+            "tagTitle": "contact",
+            "text": "CONTACT"
+          }
+        }*/
+      ]
+    }
+  },
+
+// Sticky dropdown menu for mobile
+  "sticky-layout#top-bar-mobile":{
+    "props":{
+      "blockClass": "header-header",
+      "position": "top"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#grupo2-mobile"
+    ]
+  },
+  "vtex.menu@2.x:menu#grupo2-mobile": {  
+    "props": {
+      "blockClass": "header-header",
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "fullWidth": true,
+      "items": [
+        {
+          "id": "menu-item-home",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "#",
+            "noFollow": false,
+            "tagTitle": "Home",
+            "text": "HOME"
+          }
+        },
+        {
+          "id": "menu-item-about-us",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/about-us",
+            "noFollow": false,
+            "tagTitle": "about-us",
+            "text": "ABOUT"
+          }
+        }
+      ]
+    }
   }
-}
 
 }
 

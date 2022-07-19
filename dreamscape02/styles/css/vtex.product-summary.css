@@ -1,10 +1,12 @@
-.skuSelectorContainer--quickview .skuSelectorItemImage .frameAround, .skuSelectorContainer--quickview .skuSelectorItemImage .skuSelectorInternalBox {
+.skuSelectorContainer--quickview .skuSelectorItemImage .frameAround,
+.skuSelectorContainer--quickview .skuSelectorItemImage .skuSelectorInternalBox {
   border-radius: 50%;
 }
 
 .container :global(.vtex-modal-layout-0-x-triggerContainer) {
   opacity: 0;
   transition: opacity 200ms ease-in-out;
+  border: 1px solid black;
 }
 
 .container:hover :global(.vtex-modal-layout-0-x-triggerContainer) {
@@ -31,10 +33,12 @@
 
 .container {
   text-align: start;
+  border: 2px solid black;
 }
 
 .imageContainer {
   text-align: center;
+  border-bottom: 1px solid black;
 }
 
 .image {

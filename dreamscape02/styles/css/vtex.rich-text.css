@@ -87,4 +87,11 @@
   .container--title .paragraph {
     line-height: 1.3em;
   }
+
+  .container--title-video {
+    color: #03034E;
+    font-size: 40px;
+    font-weight: 700;
+    max-width: 100%;
+  }
 }
