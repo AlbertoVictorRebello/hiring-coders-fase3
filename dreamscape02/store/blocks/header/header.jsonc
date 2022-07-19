@@ -56,11 +56,15 @@
   //     "flex-layout.col#spacer"
   //   ]
   // },
+
+  // // Don't know what this does yet
   "flex-layout.col#spacer": {
     "props": {
       "width": "grow"
     }
   },
+
+
   "header-layout.mobile": {
     "children": ["sticky-layout#1-mobile"]
   },

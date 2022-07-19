@@ -106,3 +106,22 @@
 .flexRowContent--headerLogoMobile {
   background-color: #e9c46a;
 }
+
+
+.flexRow--headerLogoG2Desktop {
+  background-color: #110204;
+  justify-content: left;
+  align-items: left;
+}
+
+/* .flexRow--productImage {
+  border: 1px black;
+}
+
+.image--productImage {
+  border: 1px black;
+}
+
+.productImageTag--productImage {
+  border: 1px black;
+} */

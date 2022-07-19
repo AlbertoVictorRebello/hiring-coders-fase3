@@ -6,7 +6,6 @@
 .container :global(.vtex-modal-layout-0-x-triggerContainer) {
   opacity: 0;
   transition: opacity 200ms ease-in-out;
-  border: 1px solid black;
 }
 
 .container:hover :global(.vtex-modal-layout-0-x-triggerContainer) {
