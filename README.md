@@ -76,31 +76,31 @@ Estão incluídos no escopo os seguintes itens:
   - O grupo pode escolher livremente a ferramenta para manter os dados.
 
 ### Ferramentas
-=> Usar loja compartilhada com um ou mais Workspaces para trabalhar.
-=> Usar toolbelt da VTEX.
-=> Usar seu editor de textos preferido.
+- Usar loja compartilhada com um ou mais Workspaces para trabalhar.
+- Usar toolbelt da VTEX.
+- Usar seu editor de textos preferido.
 
 ### Entrega:
-=> Projeto no Repositório Github do grupo. 
-     - Contemplando o fluxo completo desde a experiência do usuário até a interpretação do lojista da compra.
-     - O workspace deve estar funcional com SKUs e processando compra.
-=> Garanta uma apresentação elegante.
+- Projeto no Repositório Github do grupo. 
+  - Contemplando o fluxo completo desde a experiência do usuário até a interpretação do lojista da compra.
+  - O workspace deve estar funcional com SKUs e processando compra.
+- Garanta uma apresentação elegante.
 
 
 ### Critérios de Avaliação:
-=> Organização de tarefas;
-=> Página com funcionalidade de compra;
-=> Exibir contador de pontos no front-end;
-=> Utilizar API da VTEX;
-=> Páginas responsivas;
-=> Validação de campos obrigatos em formulários.
-=> Senhas criptografadas (requisito retirado do desafio).
+- Organização de tarefas;
+- Página com funcionalidade de compra;
+- Exibir contador de pontos no front-end;
+- Utilizar API da VTEX;
+- Páginas responsivas;
+- Validação de campos obrigatos em formulários.
+- Senhas criptografadas (requisito retirado do desafio).
 
 ### Não estão incluídos no escopo os seguintes itens:
-=> Criar sistema no qual o usuário final pode utilizar os pontos gerados.
-=> Debito de pontos devido à cancelamentos de compra.
-=> Implementar data de expiração de pontos.
-=> Medição da loja usando ferramentas verificação de performance."		
+- Criar sistema no qual o usuário final pode utilizar os pontos gerados.
+- Debito de pontos devido à cancelamentos de compra.
+- Implementar data de expiração de pontos.
+- Medição da loja usando ferramentas verificação de performance."		
 		
 		
 ## Atividades Realizadas e programadas para V2.0
