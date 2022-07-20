@@ -45,6 +45,10 @@ graph TD;
     B-->D;
     C-->D;
 ```
+## Atividades Realizadas e programadas para V2.0
+
+[Lista de Atividades](https://github.com/AlbertoVictorRebello/hiring-coders-fase3-dreamscape-grupo2/blob/master/images/Dreamscape%20Grupo%202%20-%20Atividades.pdf)
+
 ## Instruções de Uso
 - nononononononono.
 
