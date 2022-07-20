@@ -30,7 +30,9 @@
     "props": {
       "showBadge": false,
       "aspectRatio": "1:1",
-      "maxHeight": 300
+      "maxHeight": 300,
+      "maxItems": 20
+
     }
   },
 

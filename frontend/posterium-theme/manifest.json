@@ -1,6 +1,6 @@
 {
   "vendor": "dreamscape",
-  "name": "posterium-theme",
+  "name": "grupo2-store-front",
   "version": "0.0.0",
   "builders": {
     "styles": "2.x",

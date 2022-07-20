@@ -1,9 +1,12 @@
 {
   "list-context.product-list": {
     "blocks": ["product-summary.shelf"],
-    "children": ["slider-layout"]
+    "children": ["slider-layout#shelf1"],
+    "props": {
+      "maxItems": 30
+    }
   },
-  "slider-layout": {
+  "slider-layout#shelf1": {
     "props": {
       "itemsPerPage": {
         "desktop": 5,
@@ -12,10 +15,10 @@
       },
       "infinite": true,
       "showNavigationArrows": "desktopOnly",
-      // "blockClass": "carousel",
       "maxItems": 5,
+      "skusFilter": "ALL_AVAILABLE",
+      "collection": "New Arrivals",
       "orderByField": "OrderByNameASC"
-
     }
   }
 }
