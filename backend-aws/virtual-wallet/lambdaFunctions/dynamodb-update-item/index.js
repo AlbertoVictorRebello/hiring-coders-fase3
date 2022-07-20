@@ -58,6 +58,7 @@ exports.handler = async event => {
             data: JSON.stringify(params),
         });
 
+        dataDB = await dynamo.get(paramsDB).promise();
         return response(200, dataDB.Item);
     } catch (err) {
         console.error(err);
