@@ -54,26 +54,26 @@ Data Limite de Push Final do Projeto no Github:	20-Jul-2022
 O objetivo central do projeto é o de  implementar um modelo de recompensa na loja da Maria. 
 
 Estão incluídos no escopo os seguintes itens: 
-=> Desenvolver uma Frente de Loja (Store Front) com interface simples para garantir uma boa experiência ao Consumidor.
-     - A compra deve ser realizada via interface.
-     - O Consumidor deve se registrar e ter uma senha.
-=> Desenvolver as funcionalidades para reconhecer a criação de um novo pedido e processar as combinações de compra.
-=> Desenvolver uma Carteira Virtual para cada Consumidor.
-=> Desenvolver um Contador De Pontos para validação do saldo de cada Consumidor.
-     - o contador deve estar visível ao Consumidor.
-     - escutar Criação de Ordem/Pedido (Broadcast) para gerar recompensa de  1 ponto para cada R$ 1,00 gasto pelo Consumidor.
-     - os centavos podem ser descartados. Ex: R$ 35,23 geram 35 pontos.
-     - os pontos são incrementados por cada compra e deduzida via chamada de API;
-=> Desenvolver uma API para consultar o saldo.
-     - ""Pegar o saldo, onde traz o valor inteiro do saldo atual.""
-=> Desenvolver uma API para debitar um valor.
-     - ""Debitar valor inteiro do saldo, retornando o valor atual.""
-=> Desenvolver um forte Backend montado na AWS para alavancar a funcionalidade, onde pode ser utilizado quaisquer serviços desejados.
-=> Desenvolver o sistema de armazenamento para manter os dados. Sugestões:
-      - https://developers.vtex.com/vtex-rest-api/reference/master-data-api-v2-overview
-      - https://aws.amazon.com/s3/
-      - https://aws.amazon.com/dynamodb/
-      - O grupo pode escolher livremente a ferramenta para manter os dados.
+- Desenvolver uma Frente de Loja (Store Front) com interface simples para garantir uma boa experiência ao Consumidor.
+  - A compra deve ser realizada via interface.
+  - O Consumidor deve se registrar e ter uma senha.
+- Desenvolver as funcionalidades para reconhecer a criação de um novo pedido e processar as combinações de compra.
+- Desenvolver uma Carteira Virtual para cada Consumidor.
+- Desenvolver um Contador De Pontos para validação do saldo de cada Consumidor.
+  - o contador deve estar visível ao Consumidor.
+  - escutar Criação de Ordem/Pedido (Broadcast) para gerar recompensa de  1 ponto para cada R$ 1,00 gasto pelo Consumidor.
+  - os centavos podem ser descartados. Ex: R$ 35,23 geram 35 pontos.
+  - os pontos são incrementados por cada compra e deduzida via chamada de API;
+- Desenvolver uma API para consultar o saldo.
+  - "Pegar o saldo, onde traz o valor inteiro do saldo atual."
+- Desenvolver uma API para debitar um valor.
+  - "Debitar valor inteiro do saldo, retornando o valor atual."
+- Desenvolver um forte Backend montado na AWS para alavancar a funcionalidade, onde pode ser utilizado quaisquer serviços desejados.
+- Desenvolver o sistema de armazenamento para manter os dados. Sugestões:
+  - https://developers.vtex.com/vtex-rest-api/reference/master-data-api-v2-overview
+  - https://aws.amazon.com/s3/
+  - https://aws.amazon.com/dynamodb/
+  - O grupo pode escolher livremente a ferramenta para manter os dados.
 
 ### Ferramentas
 => Usar loja compartilhada com um ou mais Workspaces para trabalhar.
