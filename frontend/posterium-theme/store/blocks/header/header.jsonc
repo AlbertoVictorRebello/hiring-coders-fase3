@@ -1,0 +1,105 @@
+{
+  "header": {
+    "blocks": ["header-layout.desktop", "header-layout.mobile"]
+  },
+  "header.full": {
+    "blocks": ["header-layout.desktop", "header-layout.mobile"]
+  },
+  "header-layout.desktop": {
+    "children": [
+      "flex-layout.row#1-desktop",
+      "sticky-layout#top-bar-desktop"
+    ]
+  },
+
+  "flex-layout.row#1-desktop": {
+    "children": [
+      "image#logoG2",
+      "image#logoPosterium",
+       "countdown"
+      ],
+    "props": {
+      "fullWidth": true,
+      "blockClass": "headerLogoDesktop"
+    }
+  },
+
+  "image#logoG2": {
+    "props": {
+      "src": "assets/imgs/grupo02-logo-no-bg.png",
+      "maxHeight": 80,
+      "horizontalAlign": "left"
+    }
+  },
+
+  
+  "image#logoPosterium": {
+    "props": {
+      "src": "assets/imgs/posterium-logo-no-bg.png",
+      "maxHeight": 100
+    }
+  },
+
+  // // Don't know what this does yet
+  "flex-layout.col#spacer": {
+    "props": {
+      "width": "grow"
+    }
+  },
+
+
+  "header-layout.mobile": {
+    "children": ["sticky-layout#1-mobile"]
+  },
+  "sticky-layout#1-mobile": {
+    "children": ["flex-layout.row#1-mobile"]
+  },
+  "flex-layout.row#1-mobile": {
+    "children": [
+      "drawer",
+      "logo#g2-mobile",
+      "flex-layout.col#spacer",
+      "countdown",
+      "login",
+      "minicart.v2"
+    ],
+    "props": {
+      "blockClass": "headerLogoMobile",
+      "preventHorizontalStretch": true,
+      "preserveLayoutOnMobile": true,
+      "fullWidth": true
+    }
+  },
+  "drawer": {
+    "children": ["menu#drawer"]
+  },
+
+  "menu#drawer": {
+    "children": [
+      "logo#posterium-mobile",
+      "sticky-layout#top-bar-mobile"
+    ],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+
+  "logo#g2-mobile": {
+    "props": {
+      "title": "Logo",
+      "href": "/",
+      "url": "assets/imgs/grupo02-logo-no-bg.png",
+      "width": "77.5",
+      "height": "27.5"
+    }
+  },
+  "logo#posterium-mobile": {
+    "props": {
+      "title": "Logo",
+      "href": "/",
+      "url": "assets/imgs/posterium-logo-no-bg.png",
+      "width": "250",
+      "height": "112.5"
+    }
+  }
+}

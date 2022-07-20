@@ -1,0 +1,21 @@
+{
+  "list-context.product-list": {
+    "blocks": ["product-summary.shelf"],
+    "children": ["slider-layout"]
+  },
+  "slider-layout": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 5,
+        "tablet": 4,
+        "phone": 3
+      },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      // "blockClass": "carousel",
+      "maxItems": 5,
+      "orderByField": "OrderByNameASC"
+
+    }
+  }
+}

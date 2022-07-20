@@ -1,0 +1,63 @@
+{
+// CARROSSEL DE BLOCOS
+  "slider-layout#home": {
+    "children": [
+        "image#brand1",
+        "image#brand2",
+        "image#brand3",
+        "image#brand4",
+        "image#brand5",
+        "image#brand6",
+        "image#brand7",
+        "image#brand8"
+    ],
+    "props": {
+      "autoplay": {
+        "timeout": 7000,
+        "stopOnHover": true
+      }
+    }
+  },
+  "image#brand1": {
+    "props": {
+      "src": "assets/imgs/logo-vtex-resized.jpg"
+    }
+  },
+  "image#brand2": {
+    "props": {
+      "src": "assets/imgs/logo-gama-academy.jpg"
+    }
+  },
+  "image#brand3": {
+    "props": {
+      "src": "assets/imgs/logo-hiring-coders.jpg"
+    }
+  },
+  "image#brand4": {
+    "props": {
+      "src": "assets/imgs/logo-aws.svg"
+    }
+  },
+  "image#brand5": {
+    "props": {
+      "src": "assets/imgs/logo-dreamscape-resized.jpg"
+    }
+  },
+  "image#brand6": {
+    "props": {
+      "src": "assets/imgs/logo-nodejs.svg"
+    }
+  },
+  "image#brand7": {
+    "props": {
+      "src": "assets/imgs/logo-graphql.svg"
+    }
+  },
+  "image#brand8": {
+    "props": {
+      "src": "assets/imgs/logo-react.png",
+      "maxHeight": 144,
+      "maxWidth": 144
+    }
+  }
+}
