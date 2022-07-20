@@ -55,19 +55,7 @@
             "tagTitle": "about-us",
             "text": "ABOUT"
           }
-        }/*,
-        {
-          "id": "menu-item-contact",
-          "type": "custom",
-          "highlight": false,
-          "itemProps": {
-            "type": "internal",
-            "href": "/contact",
-            "noFollow": false,
-            "tagTitle": "contact",
-            "text": "CONTACT"
-          }
-        }*/
+        }
       ]
     }
   },
@@ -75,7 +63,7 @@
 // Sticky dropdown menu for mobile
   "sticky-layout#top-bar-mobile":{
     "props":{
-      "blockClass": "header-header",
+      "blockClass": "header-header-mobile",
       "position": "top"
     },
     "children": [
@@ -84,7 +72,7 @@
   },
   "vtex.menu@2.x:menu#grupo2-mobile": {  
     "props": {
-      "blockClass": "header-header",
+      "blockClass": "header-header-mobile",
       "horizontalAlign": "center",
       "verticalAlign": "center",
       "preventHorizontalStretch": true,

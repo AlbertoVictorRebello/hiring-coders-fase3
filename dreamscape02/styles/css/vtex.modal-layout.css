@@ -61,6 +61,7 @@
 .contentContainer--quickviewContent {
   padding: 2.5rem 0 2.5rem 2rem;
   overflow-x: hidden;
+
 }
 
 .triggerContainer--quickview {
@@ -69,11 +70,13 @@
 
 .triggerContainer {
   outline: none;
+  justify-content: end;
+  align-items: end;
 }
 
 .actionsContainer--quickview:not(.actionsContainerEndOfContent--quickview) {
   border-top-color: rgb(238, 238, 238);
-  box-shadow: -4px 0px 27px -12px rgba(0,0,0,0.64);
+  box-shadow: -4px 0px 27px -12px rgba(0, 0, 0, 0.64);
 }
 
 .actionsContainer--quickview:not(.actionsContainerEndOfContent--quickview) .actionsContentWrapper {

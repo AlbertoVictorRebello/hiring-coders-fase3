@@ -1,10 +1,8 @@
 {
   "store.home": {
     "blocks": [
-      // "slider-layout#poster",
       "list-context.image-list#posters",
       "info-card#posters",
-      // "info-card#reallyOrganic",
       "list-context.product-list",
       "slider-layout#home",
       "flex-layout.row#deals",

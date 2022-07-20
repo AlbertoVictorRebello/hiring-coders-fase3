@@ -18,13 +18,11 @@
       }
     }
   },
-
   "image#brand1": {
     "props": {
       "src": "assets/imgs/logo-vtex-resized.jpg"
     }
   },
-
   "image#brand2": {
     "props": {
       "src": "assets/imgs/logo-gama-academy.jpg"

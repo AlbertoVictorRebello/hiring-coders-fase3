@@ -1,6 +1,5 @@
 {
-  
-  "info-card#posters": {
+    "info-card#posters": {
     "props": {
       "isFullModeStyle": false,
       "textPosition": "center",

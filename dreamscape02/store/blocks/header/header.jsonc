@@ -7,10 +7,8 @@
   },
   "header-layout.desktop": {
     "children": [
-      // "countdown",
       "flex-layout.row#1-desktop",
       "sticky-layout#top-bar-desktop"
-      // "flex-layout.row#3-desktop"
     ]
   },
 
@@ -18,7 +16,6 @@
     "children": [
       "image#logoG2",
       "image#logoPosterium",
-      // "telemarketing",
        "countdown"
       ],
     "props": {
@@ -43,20 +40,6 @@
     }
   },
 
-
-  // "flex-layout.row#3-desktop": {
-  //   "props": {
-  //     "blockClass": "menu-link",
-  //     "horizontalAlign": "center",
-  //     "preventHorizontalStretch": true,
-  //     "preventVerticalStretch": true,
-  //     "fullWidth": true
-  //   },
-  //   "children": [
-  //     "flex-layout.col#spacer"
-  //   ]
-  // },
-
   // // Don't know what this does yet
   "flex-layout.col#spacer": {
     "props": {
@@ -75,8 +58,8 @@
     "children": [
       "drawer",
       "logo#g2-mobile",
-      // "logo#posterium-mobile",
       "flex-layout.col#spacer",
+      "countdown",
       "login",
       "minicart.v2"
     ],

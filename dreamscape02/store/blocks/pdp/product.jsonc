@@ -54,7 +54,7 @@
     "children": ["flex-layout.col#stack", "flex-layout.col#right-col"]
   },
 
-  "stack-layout": {
+ /* "stack-layout": {
     "props": {
       "blockClass": "product"
     },
@@ -63,7 +63,7 @@
       "product-bookmark",
       "product-specification-badges"
     ]
-  },
+  },*/
 
   "product-specification-badges": {
     "props": {
@@ -75,7 +75,11 @@
   },
 
   "flex-layout.col#stack": {
-    "children": ["stack-layout"],
+    "children": [/*"stack-layout"*/
+    "flex-layout.row#product-image",
+    "product-bookmark",
+    "product-specification-badges"
+  ],
     "props": {
       "width": "60%",
       "rowGap": 0
@@ -90,6 +94,8 @@
         "desktop": "auto",
         "phone": "16:9"
       },
+      "width": "95%",
+      "thumbnailsOrientation": "vertical",
       "displayThumbnailsArrows": true
     }
   },
