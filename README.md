@@ -45,6 +45,64 @@ graph TD;
     B-->D;
     C-->D;
 ```
+## Descrição do Desafio
+Data de Abertura do Projeto:	13-Jul-2022	
+Data Limite de Execução do Projeto:	19-Jul-2022	
+Data Limite de Push Final do Projeto no Github:	20-Jul-2022	
+
+### Escopo do Projeto: 
+O objetivo central do projeto é o de  implementar um modelo de recompensa na loja da Maria. 
+
+Estão incluídos no escopo os seguintes itens: 
+=> Desenvolver uma Frente de Loja (Store Front) com interface simples para garantir uma boa experiência ao Consumidor.
+     - A compra deve ser realizada via interface.
+     - O Consumidor deve se registrar e ter uma senha.
+=> Desenvolver as funcionalidades para reconhecer a criação de um novo pedido e processar as combinações de compra.
+=> Desenvolver uma Carteira Virtual para cada Consumidor.
+=> Desenvolver um Contador De Pontos para validação do saldo de cada Consumidor.
+     - o contador deve estar visível ao Consumidor.
+     - escutar Criação de Ordem/Pedido (Broadcast) para gerar recompensa de  1 ponto para cada R$ 1,00 gasto pelo Consumidor.
+     - os centavos podem ser descartados. Ex: R$ 35,23 geram 35 pontos.
+     - os pontos são incrementados por cada compra e deduzida via chamada de API;
+=> Desenvolver uma API para consultar o saldo.
+     - ""Pegar o saldo, onde traz o valor inteiro do saldo atual.""
+=> Desenvolver uma API para debitar um valor.
+     - ""Debitar valor inteiro do saldo, retornando o valor atual.""
+=> Desenvolver um forte Backend montado na AWS para alavancar a funcionalidade, onde pode ser utilizado quaisquer serviços desejados.
+=> Desenvolver o sistema de armazenamento para manter os dados. Sugestões:
+      - https://developers.vtex.com/vtex-rest-api/reference/master-data-api-v2-overview
+      - https://aws.amazon.com/s3/
+      - https://aws.amazon.com/dynamodb/
+      - O grupo pode escolher livremente a ferramenta para manter os dados.
+
+### Ferramentas
+=> Usar loja compartilhada com um ou mais Workspaces para trabalhar.
+=> Usar toolbelt da VTEX.
+=> Usar seu editor de textos preferido.
+
+### Entrega:
+=> Projeto no Repositório Github do grupo. 
+     - Contemplando o fluxo completo desde a experiência do usuário até a interpretação do lojista da compra.
+     - O workspace deve estar funcional com SKUs e processando compra.
+=> Garanta uma apresentação elegante.
+
+
+### Critérios de Avaliação:
+=> Organização de tarefas;
+=> Página com funcionalidade de compra;
+=> Exibir contador de pontos no front-end;
+=> Utilizar API da VTEX;
+=> Páginas responsivas;
+=> Validação de campos obrigatos em formulários.
+=> Senhas criptografadas (requisito retirado do desafio).
+
+### Não estão incluídos no escopo os seguintes itens:
+=> Criar sistema no qual o usuário final pode utilizar os pontos gerados.
+=> Debito de pontos devido à cancelamentos de compra.
+=> Implementar data de expiração de pontos.
+=> Medição da loja usando ferramentas verificação de performance."		
+		
+		
 ## Atividades Realizadas e programadas para V2.0
 
 [Lista de Atividades](https://github.com/AlbertoVictorRebello/hiring-coders-fase3-dreamscape-grupo2/blob/master/images/Dreamscape%20Grupo%202%20-%20Atividades.pdf)
