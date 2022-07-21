@@ -9,7 +9,11 @@
         },
         {
           "image": "assets/imgs/posters1-resized.jpg",
-          "description": "Various Posters"
+          "description": "Rock Posters"
+        },
+        {
+          "image": "assets/imgs/motivational-poster-resized.jpg",
+          "description": "Motivational Posters"
         }
       ]
     }
@@ -26,7 +30,7 @@
         "stopOnHover": true
       },
       "infinite": true,
-      "blockClass": "mainPosters"
+      "blockClass": "main-Posters"
     }
   }
 }

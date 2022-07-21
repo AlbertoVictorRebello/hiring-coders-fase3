@@ -1,6 +1,6 @@
 .stackItem--product {
   width: 100%;
-  min-height: 257px;
+  min-height: 257px
 }
 
 .stackItem--quickview {
@@ -15,17 +15,4 @@
   display: flex;
   align-items: center;
   justify-content: space-around;
-}
-
-
-.flexRowcontent--productImage {
-  border: 1px black;
-}
-
-.image--productImage {
-  border: 1px black;
-}
-
-.productImageTag--productImage {
-  border: 1px black;
 }

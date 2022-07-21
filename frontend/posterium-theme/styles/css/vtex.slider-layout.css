@@ -1,11 +1,17 @@
+/* Changes the size of the container of the shelf */
 .sliderLayoutContainer {
   justify-content: center;
-  margin: 4rem 0 4rem 0;
+  margin: 1rem 0 4rem 0;
+  padding: 0rem 0 1rem 0;
+  box-shadow: 0em 0.5em 0.5em -0.8em black;
+  /* box-shadow: 60px 16px teal; */
 }
 
-.sliderLayoutContainer--mainPosters {
+.sliderLayoutContainer--main-Posters {
   justify-content: center;
   margin-top: 0;
+  box-shadow: none;
+
 }
 
 
@@ -18,14 +24,20 @@
   max-width: 100%;
 }
 
-.paginationDotsContainer {
+/* Changes thing about the dots in the */
+/* .paginationDotsContainer {
   margin-top: .5rem;
   margin-bottom: .5rem;
+} */
+
+.paginationDotsContainer--main-Posters {
+  /* margin-top: 10rem; */
+  margin-bottom: 2rem;
 }
 
 .layoutContainer--shelf {
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin-top: 200px;
+  margin-bottom: 200px;
   max-width: 96rem;
   min-height: 550px;
 }

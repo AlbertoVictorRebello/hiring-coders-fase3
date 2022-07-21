@@ -2,8 +2,19 @@
     "info-card#posters": {
     "props": {
       "isFullModeStyle": false,
-      "textPosition": "center",
-      "imageUrl": "assets/imgs/info-card-poster-resized.jpg",
+      "textPosition": "left",
+      "imageUrl": "assets/imgs/info-card-rock-poster-resized.jpg",
+      "headline": "We have the poster for you!",
+      "subhead": "Come on and browse our amazing collection<br>with more than hundreds of high-quality posters<br>of your favorite movies, series, games, and much more!",
+      "textAlignment": "center",
+      "callToActionMode": "None"
+    }
+  },
+  "info-card#posters2": {
+    "props": {
+      "isFullModeStyle": false,
+      "textPosition": "right",
+      "imageUrl": "assets/imgs/info-card-outdoor-posters-mashup-resized.jpg",
       "headline": "We have the poster for you!",
       "subhead": "Come on and browse our amazing collection<br>with more than hundreds of high-quality posters<br>of your favorite movies, series, games, and much more!",
       "textAlignment": "center",
