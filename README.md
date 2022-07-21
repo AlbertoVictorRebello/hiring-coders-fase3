@@ -1,5 +1,5 @@
 <div>
-  <img src="./images/hiringCodersCover.png" alt="hiring Coders" width="100%" align-self="center" margin="0px"> 
+  <img src="./images/hiringCodersCover.png" alt="hiring Coders" width="100%" align-self="center" margin="0px" > 
 </div>
 
 # Apresentação
