@@ -38,6 +38,27 @@ A master branch tem a versão funcional do código do projeto. Ele está separad
 | FRONTEND     | Posterium Theme APP + Point Counter APP |
 | IMAGES       | Imagens relacionadas ao readme file.    |
 
+## Instruções de uso
+  ### Faça login em sua conta vtex e crie um workspace de desenvolvimento, então:
+-  **Abra um terminal e rode os seguintes comandos:**
+-   `git clone https://github.com/AlbertoVictorRebello/hiring-coders-fase3-dreamscape-grupo2.git`
+-   `cd hiring-coders-fase3-dreamscape-grupo2`
+-   `cd frontend/point-counter/`
+-   `vtex setup`
+-   `vtex link`
+
+-   **Abra um segundo terminal em ./hiring-coders-fase3-dreamscape-grupo2**
+-   `cd backend-vtex/orders-feed/`
+-   `vtex setup`
+-   `vtex link`
+
+-   **Abra um terceiro terminal em ./hiring-coders-fase3-dreamscape-grupo2**
+-   `cd frontend/posterium-theme/`
+-   `vtex setup`
+-   `vtex link`
+   
+Ao terminar esse processo, você receberá no terminal um endereço de acesso para a loja em funcionamento.
+
 ## Jornada do Consumidor
 A loja desenvolvida na VTEX busca oferecer a melhor experiência e usabilidade para que o consumidor encontre com facilidade os produtos que atendem a sua necessidade. Conheça os princípios que são a base de nosso desenvolvimento.
 
@@ -131,22 +152,6 @@ Estão incluídos no escopo os seguintes itens:
 
 [Lista de Atividades](https://github.com/AlbertoVictorRebello/hiring-coders-fase3-dreamscape-grupo2/blob/master/images/Dreamscape%20Grupo%202%20-%20Atividades.pdf)
 
-## Instruções de Uso
-- nononononononono.
-
-- nononononononono:
-
-  `npm install`
-
-### Como clonar o projeto
-
-- nonononon
-
-# Front Store
-
-### hiring-coders-fase3
-
-Este repositório conterá o projeto completo do desafio da semifinal: a loja VTEX e de suas funcionalidades.
 
 ### Primeiro passo
 
