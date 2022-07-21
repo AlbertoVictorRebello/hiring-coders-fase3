@@ -51,12 +51,14 @@ A master branch tem a versão funcional do código do projeto. Ele está separad
 -   `cd backend-vtex/orders-feed/`
 -   `vtex setup`
 -   `vtex link`
-
--   **Abra um terceiro terminal em ./hiring-coders-fase3-dreamscape-grupo2**
+ 
+ - **Configure sua workspace para receber informações dos pedidos gerados**
+ - O backend da aplicação utiliza como sensor do evento de compras a aplicação própria da vtex "orders-broadcast". Essa aplicação precisa ser configurada no adm de sua loja. Para isso siga instruções desse link: [# Receiving Order Notifications](https://developers.vtex.com/vtex-developer-docs/docs/how-to-receive-order-notifications-on-vtex-io)
+   
+ -   **Abra um terceiro terminal em ./hiring-coders-fase3-dreamscape-grupo2**
 -   `cd frontend/posterium-theme/`
 -   `vtex setup`
 -   `vtex link`
-   
 Ao terminar esse processo, você receberá no terminal um endereço de acesso para a loja em funcionamento.
 
 ## Jornada do Consumidor
