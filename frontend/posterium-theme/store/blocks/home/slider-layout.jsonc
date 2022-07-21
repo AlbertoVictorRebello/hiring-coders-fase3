@@ -1,6 +1,6 @@
 {
 // CARROSSEL DE BLOCOS
-  "slider-layout#home": {
+  "slider-layout#partners": {
     "children": [
         "image#brand1",
         "image#brand2",

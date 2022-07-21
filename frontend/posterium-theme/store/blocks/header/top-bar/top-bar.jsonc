@@ -2,7 +2,7 @@
 {
   "sticky-layout#top-bar-desktop":{
     "props":{
-      "blockClass": "header-header",
+      "blockClass": "header-Header",
       "position": "top"
     },
     "children": [
@@ -13,7 +13,7 @@
   },
   "vtex.menu@2.x:menu#grupo2-desktop": {  
     "props": {
-      "blockClass": "header-header",
+      "blockClass": "header-Header",
       "horizontalAlign": "center",
       "verticalAlign": "center",
       "preventHorizontalStretch": true,
@@ -32,18 +32,6 @@
             "text": "HOME"
           }
         },
-        // {
-        //   "id": "menu-item-shop",
-        //   "type": "custom",
-        //   "highlight": false,
-        //   "itemProps": {
-        //     "type": "internal",
-        //     "href": "#",
-        //     "noFollow": false,
-        //     "tagTitle": "Shop",
-        //     "text": "SHOP"
-        //   }
-        // },
         {
           "id": "menu-item-about-us",
           "type": "custom",
@@ -55,6 +43,18 @@
             "tagTitle": "about-us",
             "text": "ABOUT"
           }
+        },
+        {
+          "id": "menu-item-points",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/points",
+            "noFollow": false,
+            "tagTitle": "Points",
+            "text": "POINTS"
+          }
         }
       ]
     }
@@ -63,7 +63,7 @@
 // Sticky dropdown menu for mobile
   "sticky-layout#top-bar-mobile":{
     "props":{
-      "blockClass": "header-header-mobile",
+      "blockClass": "header-HeaderMobile",
       "position": "top"
     },
     "children": [
@@ -72,7 +72,7 @@
   },
   "vtex.menu@2.x:menu#grupo2-mobile": {  
     "props": {
-      "blockClass": "header-header-mobile",
+      "blockClass": "header-HeaderMobile",
       "horizontalAlign": "center",
       "verticalAlign": "center",
       "preventHorizontalStretch": true,
@@ -101,6 +101,18 @@
             "noFollow": false,
             "tagTitle": "about-us",
             "text": "ABOUT"
+          }
+        },
+        {
+          "id": "menu-item-points",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/points",
+            "noFollow": false,
+            "tagTitle": "Points",
+            "text": "POINTS"
           }
         }
       ]

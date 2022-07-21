@@ -2,6 +2,12 @@
   "store.custom#about-us": {
     "path": "/about-us"
   },
+
+  "store.custom#points": {
+    "path": "/points"
+  },
+
+
   "store.custom#faq": {
     "path": "/faq"
   }

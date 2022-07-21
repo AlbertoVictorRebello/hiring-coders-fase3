@@ -61,7 +61,6 @@
 .contentContainer--quickviewContent {
   padding: 2.5rem 0 2.5rem 2rem;
   overflow-x: hidden;
-
 }
 
 .triggerContainer--quickview {
@@ -70,8 +69,6 @@
 
 .triggerContainer {
   outline: none;
-  justify-content: end;
-  align-items: end;
 }
 
 .actionsContainer--quickview:not(.actionsContainerEndOfContent--quickview) {

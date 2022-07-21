@@ -1,9 +1,16 @@
 {
   "list-context.product-list": {
     "blocks": ["product-summary.shelf"],
-    "children": ["slider-layout"]
+    "children": ["slider-layout#shelf1"],
+    "props": {
+      "maxItems": 30,
+      "skusFilter": "ALL_AVAILABLE",
+      // "collection": "New",
+      // "category": "10",
+      "orderBy": "OrderByPriceASC"
+    }
   },
-  "slider-layout": {
+  "slider-layout#shelf1": {
     "props": {
       "itemsPerPage": {
         "desktop": 5,
@@ -12,10 +19,7 @@
       },
       "infinite": true,
       "showNavigationArrows": "desktopOnly",
-      // "blockClass": "carousel",
-      "maxItems": 5,
-      "orderByField": "OrderByNameASC"
-
+      "maxItems": 5
     }
   }
 }
