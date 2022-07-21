@@ -89,7 +89,9 @@ Melhoramos o ambiente de loja ouvindo sempre nosso o  Consumidor.
 ## Descrição do Desafio
 
 Data de Abertura do Projeto: 13-Jul-2022
+
 Data Limite de Execução do Projeto: 19-Jul-2022
+
 Data Limite de Push Final do Projeto no Github: 20-Jul-2022
 
 ### Escopo do Projeto:
