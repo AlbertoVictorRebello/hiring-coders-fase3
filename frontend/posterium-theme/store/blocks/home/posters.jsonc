@@ -1,0 +1,36 @@
+{
+  "list-context.image-list#posters": {
+    "children": ["slider-layout#posters"],
+    "props": {
+      "images": [
+        {
+          "image": "assets/imgs/inauguration1-text-resized.jpg",
+          "description": "Posterium Grand Opening"
+        },
+        {
+          "image": "assets/imgs/posters1-resized.jpg",
+          "description": "Rock Posters"
+        },
+        {
+          "image": "assets/imgs/motivational-poster-resized.jpg",
+          "description": "Motivational Posters"
+        }
+      ]
+    }
+  },
+  "slider-layout#posters": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "autoplay": {
+        "timeout": 5000,
+        "stopOnHover": true
+      },
+      "infinite": true,
+      "blockClass": "main-Posters"
+    }
+  }
+}

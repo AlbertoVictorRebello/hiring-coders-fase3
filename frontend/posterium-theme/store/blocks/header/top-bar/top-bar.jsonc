@@ -1,0 +1,125 @@
+// Sticky menu for desktop
+{
+  "sticky-layout#top-bar-desktop":{
+    "props":{
+      "blockClass": "header-Header",
+      "position": "top"
+    },
+    "children": [
+      "login", 
+      "minicart.v2",
+      "vtex.menu@2.x:menu#grupo2-desktop"
+    ]
+  },
+  "vtex.menu@2.x:menu#grupo2-desktop": {  
+    "props": {
+      "blockClass": "header-Header",
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "fullWidth": true,
+      "items": [
+        {
+          "id": "menu-item-home",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Home",
+            "text": "HOME"
+          }
+        },
+        {
+          "id": "menu-item-about-us",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/about-us",
+            "noFollow": false,
+            "tagTitle": "about-us",
+            "text": "ABOUT"
+          }
+        },
+        {
+          "id": "menu-item-points",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/points",
+            "noFollow": false,
+            "tagTitle": "Points",
+            "text": "POINTS"
+          }
+        }
+      ]
+    }
+  },
+
+// Sticky dropdown menu for mobile
+  "sticky-layout#top-bar-mobile":{
+    "props":{
+      "blockClass": "header-HeaderMobile",
+      "position": "top"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#grupo2-mobile"
+    ]
+  },
+  "vtex.menu@2.x:menu#grupo2-mobile": {  
+    "props": {
+      "blockClass": "header-HeaderMobile",
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "fullWidth": true,
+      "items": [
+        {
+          "id": "menu-item-home",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "#",
+            "noFollow": false,
+            "tagTitle": "Home",
+            "text": "HOME"
+          }
+        },
+        {
+          "id": "menu-item-about-us",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/about-us",
+            "noFollow": false,
+            "tagTitle": "about-us",
+            "text": "ABOUT"
+          }
+        },
+        {
+          "id": "menu-item-points",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/points",
+            "noFollow": false,
+            "tagTitle": "Points",
+            "text": "POINTS"
+          }
+        }
+      ]
+    }
+  }
+
+}
+
+
+

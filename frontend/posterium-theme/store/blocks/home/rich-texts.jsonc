@@ -1,0 +1,23 @@
+{
+  "rich-text#shelf": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "## Nossos Produtos",
+      "textColor": "c-on-base",
+      "font": "t-heading-5",
+      "blockClass": "text-shelf"
+      }
+    },
+
+    "rich-text#partners": {
+      "props": {
+        "textAlignment": "CENTER",
+        "textPosition": "CENTER",
+        "text": "## Nossos Parceiros",
+        "textColor": "c-on-base",
+        "font": "t-heading-5",
+        "blockClass": "text-partners"
+        }
+      }
+}

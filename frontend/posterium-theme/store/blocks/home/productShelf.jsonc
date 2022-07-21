@@ -1,0 +1,25 @@
+{
+  "list-context.product-list": {
+    "blocks": ["product-summary.shelf"],
+    "children": ["slider-layout#shelf1"],
+    "props": {
+      "maxItems": 30,
+      "skusFilter": "ALL_AVAILABLE",
+      // "collection": "New",
+      // "category": "10",
+      "orderBy": "OrderByPriceASC"
+    }
+  },
+  "slider-layout#shelf1": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 5,
+        "tablet": 4,
+        "phone": 3
+      },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "maxItems": 5
+    }
+  }
+}
