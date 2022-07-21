@@ -214,14 +214,9 @@ aws-dynamodb-table
   - Método:
     - GET
   - URL:
-    - https://bocjgf0d3h.execute-api.us-east-1.amazonaws.com/v1/saldo/
+    - https://bocjgf0d3h.execute-api.us-east-1.amazonaws.com/v1/saldo/usuario1@users.com
   - Authorization:
-    - Bearer Auth0 Token
-  - Body:
-    - {
-    "email": "usuario1@users.com"
-}
-
+    - Bearer Auth0 Token  
 
 - Atualizar o saldo de um registro (updateByEmail):
   - Método:
