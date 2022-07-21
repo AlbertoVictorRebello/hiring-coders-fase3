@@ -1,9 +1,9 @@
 {
-  "vendor": "vtex",
-  "name": "countdown",
-  "version": "0.0.2",
-  "title": "Countdown",
-  "description": "Countdown component",
+  "vendor": "dreamscape",
+  "name": "point-counter",
+  "version": "0.0.0",
+  "title": "Pointer Counter",
+  "description": "Pointer Counter Component",
   "defaultLocale": "pt-BR",
   "builders": {
     "messages": "1.x",

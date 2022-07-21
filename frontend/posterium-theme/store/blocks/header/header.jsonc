@@ -16,7 +16,7 @@
     "children": [
       "image#logoG2",
       "image#logoPosterium",
-       "countdown"
+       "point-counter"
       ],
     "props": {
       "fullWidth": true,
@@ -59,7 +59,7 @@
       "drawer",
       "logo#g2-mobile",
       "flex-layout.col#spacer",
-      "countdown",
+      "point-counter",
       "login",
       "minicart.v2"
     ],

@@ -12,49 +12,33 @@ export async function someStates(
   const source = ctx.vtex.workspace !== "master" ? `${ctx.vtex.workspace}--${ctx.vtex.account}` : ctx.vtex.account
   axios
     .get(
-      `http://${source}.myvtex.com/_v/bonus/`,
+      `http://${source}.myvtex.com/_v/bonus/${userEmail}`,
       {
         headers: {
           'Cache-Control': 'no-cache, no-store, must-revalidate',
-        },
-        data: {
-          email: `${userEmail}`
         }
       }
     )
     .then((response) => {
-      if (typeof response.data.Item === 'undefined') {
+      if (typeof response.data?.Item === 'undefined') {
         axios
           .post(`http://${source}.myvtex.com/_v/bonus/new`, {
             email: userEmail,
-            saldo: orderBody.value / 100,
+            saldo: Math.floor(orderBody.value / 100),
           })
-          .then((response) => {
-            console.log(response)
+          .then((_) => {
           })
-          .catch((err) => {
-            console.info(err)
+          .catch((__) => {
           })
       } else {
         axios
-          .patch(
-            `https://bocjgf0d3h.execute-api.us-east-1.amazonaws.com/v1/saldo/${userEmail}`,{
-              email: userEmail,
-              points: orderBody.value / 100,
-            },
-            {
-              headers: {
-                'Cache-Control': 'no-cache, no-store, must-revalidate',
-                'X-VTEX-Use-Https': 'true',
-                'Proxy-Authorization': 'ctx.authToken',
-              }
-            }
-          )
-          .then((response) => {
-            console.log(response)
+          .patch(`http://${source}.myvtex.com/_v/bonus/patch`, {
+            email: userEmail,
+            pontos: Math.floor(orderBody.value / 100),
           })
-          .catch((err) => {
-            console.info(err)
+          .then((_) => {
+          })
+          .catch((__) => {
           })
       }
     })

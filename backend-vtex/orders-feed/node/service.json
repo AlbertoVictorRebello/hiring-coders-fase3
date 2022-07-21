@@ -20,6 +20,10 @@
       "path": "/_v/bonus",
       "public": true
     },
+    "bonusPatch": {
+      "path": "/_v/bonus/patch",
+      "public": true
+    },
     "bonusPost": {
       "path": "/_v/bonus/new",
       "public": true

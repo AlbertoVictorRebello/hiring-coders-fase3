@@ -7,7 +7,7 @@
       "headline": "We have the poster for you!",
       "subhead": "Come on and browse our amazing collection<br>with more than hundreds of high-quality posters<br>of your favorite movies, series, games, and much more!",
       "textAlignment": "center",
-      "callToActionMode": "None"
+      "callToActionMode": "none"
     }
   },
   "info-card#posters2": {
@@ -18,7 +18,7 @@
       "headline": "We have the poster for you!",
       "subhead": "Come on and browse our amazing collection<br>with more than hundreds of high-quality posters<br>of your favorite movies, series, games, and much more!",
       "textAlignment": "center",
-      "callToActionMode": "None"
+      "callToActionMode": "none"
     }
   }
 }

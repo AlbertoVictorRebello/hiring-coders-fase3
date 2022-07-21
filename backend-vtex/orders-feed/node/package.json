@@ -12,6 +12,7 @@
     "@types/ramda": "types/npm-ramda#dist",
     "@vtex/api": "6.45.12",
     "@vtex/test-tools": "^1.0.0",
+    "dreamscape.clients-bonus": "https://victorevangelista--dreamscape.myvtex.com/_v/private/typings/linked/v1/dreamscape.clients-bonus@0.0.1+build1658378381/public/_types/react",
     "tslint": "^5.14.0",
     "tslint-config-vtex": "^2.1.0",
     "typescript": "3.9.7"

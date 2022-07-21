@@ -1,5 +1,5 @@
 {
-  "name": "countdown",
+  "name": "point-counter",
   "private": true,
   "license": "UNLICENSED",
   "scripts": {

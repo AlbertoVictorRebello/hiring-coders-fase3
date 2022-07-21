@@ -4,6 +4,7 @@ import { method, Service } from '@vtex/api'
 import { Clients } from './clients'
 import { bonus } from './middlewares/bonus'
 import { bonusAll } from './middlewares/bonusAll'
+import { bonusPatch } from './middlewares/bonusPatch'
 import { bonusPost } from './middlewares/bonusPost'
 import { someStates } from './middlewares/someStates'
 
@@ -45,6 +46,9 @@ export default new Service({
     }),
     bonusAll: method({
       GET: [bonusAll],
+    }),
+    bonusPatch: method({
+      PATCH: [bonusPatch],
     }),
     bonusPost: method({
       POST: [bonusPost],

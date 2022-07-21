@@ -1,6 +1,5 @@
 import type { InstanceOptions, IOContext, IOResponse } from '@vtex/api'
 import { ExternalClient } from '@vtex/api'
-
 export default class Bonus extends ExternalClient {
   constructor(context: IOContext, options?: InstanceOptions) {
     super('https://bocjgf0d3h.execute-api.us-east-1.amazonaws.com/v1/saldo', context, {
@@ -24,6 +23,15 @@ export default class Bonus extends ExternalClient {
       metric: 'bonus-get',
     })
   }
+
+
+  public async getPatch(bonus: string, data: BonusData): Promise<string> {
+    return this.http.patch(bonus, data,{
+      metric: 'bonus-get',
+    })
+  }
+
+
   public async getBonusAll(bonus: string): Promise<string> {
     return this.http.get(bonus, {
       metric: 'bonus-get',

@@ -1,0 +1,35 @@
+.pointCounter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 10rem;
+  height: 80px;
+  padding: 1.5rem;
+  padding-top: 2.5rem;
+  margin: 0;
+}
+
+.pointCounterContainer{
+  position: relative;
+  width: fit-content;
+  height: fit-content;
+}
+
+.coinsPointCounter{
+  width: 4rem;
+  height: 4rem;
+}
+
+.pointsPointCounter{
+  background: red;
+  color: white;
+  border-radius: 20px;
+  padding: 0.25rem;
+  width: fit-content;
+  min-width: 25px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  font-size: 14px;
+  position: absolute;
+  bottom: 2px;
+  right: 0;
+}

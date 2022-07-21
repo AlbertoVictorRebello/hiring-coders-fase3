@@ -2,9 +2,9 @@
 ## Layout base
 - [Layout](https://zyro.com/br/preview/tangierlite?returnPath=%2Fbr%2Ftemplates%2Fpopular&defaultTemplateId=tangier)
 
-## App countdown
+## App PointCounter
 
-Utilizei nesse layout o app countdown construído na aula de blocos customizáveis. Para que ele apareça na aplicação é necessário ter o bloco em sua máquina local e rodar o comando "vtex link" no diretório dele, linkando tanto o store front quanto o countdown no mesmo workspace. 
+Utilizei nesse layout o app PointCounter construído na aula de blocos customizáveis. Para que ele apareça na aplicação é necessário ter o bloco em sua máquina local e rodar o comando "vtex link" no diretório dele, linkando tanto o store front quanto o PointCounter no mesmo workspace. 
 
 
 ## Tutorial
