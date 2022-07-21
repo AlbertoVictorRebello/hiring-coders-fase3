@@ -15,7 +15,6 @@ Este projeto entrega uma loja funcional com sistema de recompensa implementado, 
 - Victor Cesar Evangelista
 
 ## Tecnologias e Ferramentas
-
 <div>
 <img src="https://img.shields.io/static/v1?label=&message=HTML&color=blue">
 <img src="https://img.shields.io/static/v1?label=&message=CSS&color=orange">
@@ -83,7 +82,6 @@ Estão incluídos no escopo os seguintes itens:
   - O grupo pode escolher livremente a ferramenta para manter os dados.
 
 ### Ferramentas
-
 - Usar loja compartilhada com um ou mais Workspaces para trabalhar.
 - Usar toolbelt da VTEX.
 - Usar seu editor de textos preferido.
@@ -117,7 +115,6 @@ Estão incluídos no escopo os seguintes itens:
 [Lista de Atividades](https://github.com/AlbertoVictorRebello/hiring-coders-fase3-dreamscape-grupo2/blob/master/images/Dreamscape%20Grupo%202%20-%20Atividades.pdf)
 
 ## Instruções de Uso
-
 - nononononononono.
 
 - nononononononono:
@@ -142,10 +139,11 @@ Dividir tarefas entre os integrantes do time.
 
 AWS Api Gateway + AWS Lambda Functions + AWS DynamoDB + Auth0
 
-- Os vídeos abaixo serão úteis para o processo de:
 
+- Os vídeos abaixo serão úteis para o processo de:
   - Criação do backend com AWS Api Gateway + AWS Lambda Functions + AWS DynamoDB
   - Inclusão de camada de segurança usando o provedor Auth0
+
 
 - API Gateway ‘hc3-dreamscape-g2’:
   - Configurar as rotas conforme abaixo:
@@ -154,7 +152,8 @@ AWS Api Gateway + AWS Lambda Functions + AWS DynamoDB + Auth0
 <img src="./images/aws-api-gateway-rotas.png" alt="hiring Coders" width="100%" align-self="center" margin="0px"> 
 </div>
 
-- Configurar as autorizações das rotas conforme abaixo:
+
+  - Configurar as autorizações das rotas conforme abaixo:
 <div>
 <img src="./images/aws-api-gateway-autorizacao.png" alt="hiring Coders" width="100%" align-self="center" margin="0px"> 
 </div>
@@ -165,7 +164,8 @@ AWS Api Gateway + AWS Lambda Functions + AWS DynamoDB + Auth0
 <img src="./images/aws-api-gateway-integracao.png" alt="hiring Coders" width="100%" align-self="center" margin="0px"> 
 </div>
 
-- Em CORS, configurar Access-Control-Allow-Origin com ‘\*’.
+ - Em CORS, configurar Access-Control-Allow-Origin com ‘*’.
+
 
 - Criar as Lambda Functions conforme abaixo:
 <div>
@@ -173,8 +173,8 @@ AWS Api Gateway + AWS Lambda Functions + AWS DynamoDB + Auth0
 </div>
 
 - Para cada lambda function, criar as seguintes variáveis de ambiente:
-- TABLE carteira-virtual
-- DEBUG true
+ - TABLE		carteira-virtual 
+ -  DEBUG	true
 
 - Configurar o acesso ao DynamoDB em permissões.
 
@@ -188,12 +188,12 @@ AWS Api Gateway + AWS Lambda Functions + AWS DynamoDB + Auth0
 
 - Veja abaixo as instruções de como configurar o Postman, ou outra ferramenta de sua escolha, para testar a api:
 
-- Criar uma tabela no DynamoDB com
-  aws-dynamodb-table
+
+- Criar uma tabela no DynamoDB com 
+aws-dynamodb-table
 
 - Consultar Auth0 para atualizar o Token:
-
-  - Método:
+  - Método: 
     - POST
   - URL:
     - https://dev-ukccgrra.us.auth0.com/oauth/token
@@ -201,20 +201,19 @@ AWS Api Gateway + AWS Lambda Functions + AWS DynamoDB + Auth0
     - {"client_id":"nfJZyeojvUawCMUX5hoHlx0MkckUh9Ml","client_secret":"B2OfmdO8JQl29fcYVPsYctVgF--LhS2rR1Rvcq-31P7K0e2KtZDiwyqQ-FgJ5c81","audience":"https://auth0-hc3f3aws-jwt-authorizer","grant_type":"client_credentials"}
 
 - Criar um registro:
-
   - Método:
-    - POST
+     - POST
   - URL:
     - https://bocjgf0d3h.execute-api.us-east-1.amazonaws.com/v1/saldo
   - Authorization:
     - Bearer Auth0 Token
-  - Body: - {  
-     "email": usuario1@users.com",
-    "saldo": 0
-    }
+  - Body:
+    - {     
+      "email": usuario1@users.com",
+      "saldo": 0
+}
 
 - Consultar todos os registros:
-
   - Método:
     - GET
   - URL:
@@ -223,38 +222,41 @@ AWS Api Gateway + AWS Lambda Functions + AWS DynamoDB + Auth0
     - Bearer Auth0 Token
 
 - Consultar um registro por email (getByEmail):
-
   - Método:
     - GET
   - URL:
     - https://bocjgf0d3h.execute-api.us-east-1.amazonaws.com/v1/saldo/usuario1@users.com
   - Authorization:
-    - Bearer Auth0 Token
+    - Bearer Auth0 Token  
 
 - Atualizar o saldo de um registro (updateByEmail):
-
   - Método:
     - PATCH
   - URL:
     - https://bocjgf0d3h.execute-api.us-east-1.amazonaws.com/v1/saldo
   - Authorization:
     - Bearer Auth0 Token
-  - Body: - {"email": "usuario1@users.com",
-    "pontos": 50
-    }
-  - Response: - {
+  - Body:
+    - {"email": "usuario1@users.com",
+      "pontos": 50
+}
+  - Response:
+    - {
     "updated_at": "2022-07-19T19:54:03.324Z",
     "created_at": "2022-07-19T19:35:14.478Z",
     "email": "usuario1@users.com",
     "saldo": 50
-    }
+}
 
 - Excluir um registro por email:
   - Método:
-    - DELETE
+     - DELETE
   - URL:
     - https://bocjgf0d3h.execute-api.us-east-1.amazonaws.com/v1/saldo
   - Authorization:
     - Bearer Auth0 Token
-  - Body: - {"email": usuario1@users.com"
-    }
+  - Body:
+    - {"email": usuario1@users.com"
+}
+
+ 

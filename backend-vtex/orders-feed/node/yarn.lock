@@ -2437,12 +2437,18 @@ domexception@^1.0.1:
     webidl-conversions "^4.0.2"
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> f2cccdbb0c43424af82062fd3c6def254366fa67
 "dreamscape.orders-feed-example@https://victorevangelista--dreamscape.myvtex.com/_v/private/typings/linked/v1/dreamscape.orders-feed-example@0.0.1+build1658275841/public/_types/react":
   version "0.0.0"
   resolved "https://victorevangelista--dreamscape.myvtex.com/_v/private/typings/linked/v1/dreamscape.orders-feed-example@0.0.1+build1658275841/public/_types/react#fa7a0347e046eab3dd768998fc9252b2c0dd5aef"
 
+<<<<<<< HEAD
 >>>>>>> b872e1ed08dbc0b43dce09525e4b3aa801e728a3
+=======
+>>>>>>> f2cccdbb0c43424af82062fd3c6def254366fa67
 ecc-jsbn@~0.1.1:
   version "0.1.2"
   resolved "https://registry.yarnpkg.com/ecc-jsbn/-/ecc-jsbn-0.1.2.tgz#3a83a904e54353287874c564b7549386849a98c9"
