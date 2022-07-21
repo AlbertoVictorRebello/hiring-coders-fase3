@@ -17,7 +17,7 @@ exports.handler = async event => {
         throw new Error('No table name defined.');
     }
 
-    // const { pathParameters } = normalizeEvent(event);
+    const { pathParameters } = normalizeEvent(event);
     const { dataReq } = normalizeEvent(event);
 
     const params = {
@@ -26,12 +26,12 @@ exports.handler = async event => {
 
     try {
         let data = {};
-        if (dataReq && dataReq['email']) {
+        if (pathParameters && pathParameters['email']) {
             data = await dynamo
                 .get({
                     ...params,
                     Key: {
-                        email: dataReq['email'],
+                        email: pathParameters['email'],
                     },
                 })
                 .promise();
