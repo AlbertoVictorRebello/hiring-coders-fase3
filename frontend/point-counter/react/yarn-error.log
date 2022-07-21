@@ -28,10 +28,7 @@ npm manifest:
     },
     "dependencies": {
       "@vtex/css-handles": "^1.0.0",
-  <<<<<<< HEAD
       "@vtex/styleguide": "^9.146.1",
-  =======
-  >>>>>>> b872e1ed08dbc0b43dce09525e4b3aa801e728a3
       "axios": "^0.27.2",
       "classnames": "^2.2.6",
       "ramda": "^0.26.1",
@@ -54,17 +51,6 @@ npm manifest:
       "apollo-client": "^2.5.1",
       "graphql": "^14.6.0",
       "typescript": "3.9.7",
-  <<<<<<< HEAD
-      "vtex.countdown": "https://arthurcandidof3mostrador--dreamscape.myvtex.com/_v/private/typings/linked/v1/vtex.countdown@0.0.2+build1658357670/public/@types/vtex.countdown",
-      "vtex.css-handles": "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.css-handles@0.4.4/public/@types/vtex.css-handles",
-      "vtex.render-runtime": "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.render-runtime@8.132.4/public/@types/vtex.render-runtime",
-      "vtex.session-client": "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.session-client@1.0.2/public/@types/vtex.session-client",
-      "vtex.styleguide": "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.styleguide@9.146.1/public/@types/vtex.styleguide"
-  =======
-      "vtex.css-handles": "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.css-handles@0.4.4/public/@types/vtex.css-handles",
-      "vtex.render-runtime": "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.render-runtime@8.120.0/public/@types/vtex.render-runtime",
-      "vtex.styleguide": "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.styleguide@9.129.0/public/@types/vtex.styleguide"
-  >>>>>>> b872e1ed08dbc0b43dce09525e4b3aa801e728a3
     }
   }
 
