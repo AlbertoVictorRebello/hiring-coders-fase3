@@ -39,14 +39,31 @@ A master branch tem a versão funcional do código do projeto. Ele está separad
 | IMAGES       | Imagens relacionadas ao readme file.    |
 
 ## Jornada do Consumidor
+A loja desenvolvida na VTEX busca oferecer a melhor experiência e usabilidade para que o consumidor encontre com facilidade os produtos que atendem a sua necessidade. Conheça os princípios que são a base de nosso desenvolvimento.
 
-```mermaid
-graph TD;
-    A-->B;
-    A-->C;
-    B-->D;
-    C-->D;
-```
+Layouts intuitivos, seu consumidor vai aonde ele quiser!
+<div>
+  <img src="./images/heuristic-summary-1.png" alt="hiring Coders" width="100%" align-self="center" margin="0px"> 
+</div>
+
+Lojas bem arrumadas. Organização vende mais!
+
+<div>
+  <img src="./images/heuristic-summary-2.png" alt="hiring Coders" width="100%" align-self="center" margin="0px"> 
+</div>
+
+E se algo der errado? Consertamos para que não se repita!
+
+<div>
+  <img src="./images/heuristic-summary-3.png" alt="hiring Coders" width="100%" align-self="center" margin="0px"> 
+</div>
+
+Melhoramos o ambiente de loja ouvindo sempre nosso o  Consumidor.
+<div>
+  <img src="./images/heuristic-summary-4.png" alt="hiring Coders" width="100%" align-self="center" margin="0px"> 
+</div>
+
+
 
 ## Descrição do Desafio
 
